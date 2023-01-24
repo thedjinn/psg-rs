@@ -1,0 +1,14 @@
+[package]
+name = "psg"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+description = "Fast and precise AY-3-8910 and YM2149 sound chip emulation"
+documentation = "https://docs.rs/psg"
+readme = "README.md"
+repository = "https://github.com/thedjinn/psg-rs"
+exclude = ["examples"]
+keywords = ["psg", "yamaha", "ay-3-8910", "ym2149", "emulator"]
+categories = ["emulators", "game-development", "multimedia::audio"]
+
+[dependencies]
