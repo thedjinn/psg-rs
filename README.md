@@ -15,7 +15,7 @@ To start using the PSG emulator in your own projects, add the following line to 
 psg = "1.0.0"
 ```
 
-After that, simply initialize a new [`PSG`] struct, set some registers, and start rendering in a loop:
+After that, simply initialize a new PSG struct, set some registers, and start rendering in a loop:
 
 ```rust
 // Initialize a new PSG with a clock rate of an MSX machine and a sampling rate of 44100 Hz.
