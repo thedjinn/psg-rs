@@ -6,7 +6,6 @@ These PSG chips were used in some of the most popular home computers in the 1980
 
 This particular implementation of the PSG chip was specifically built for use in emulation and music production (e.g. tracker) software, and comes with many useful extras to aid in writing such applications. Examples of these are math functions for easy period/frequency conversion, conversion to/from MIDI note numbers, and APIs for directly setting register values, as well as APIs that expose every individual property of the PSG chip.
 
-
 ## Usage
 
 To start using the PSG emulator in your own projects, add the following line to your Cargo dependencies:
@@ -15,7 +14,7 @@ To start using the PSG emulator in your own projects, add the following line to 
 psg = "1.0.0"
 ```
 
-After that, simply initialize a new [PSG](https://docs.rs/psg/latest/psg/struct.PSG.html) struct, set some registers, and start rendering in a loop:
+After that, simply initialize a new [`PSG`](https://docs.rs/psg/latest/psg/struct.PSG.html) struct, set some registers, and start rendering in a loop:
 
 ```rust
 // Initialize a new PSG with a clock rate of an MSX machine and a sampling rate of 44100 Hz.
@@ -36,7 +35,7 @@ for _ in 0..44100 {
 }
 ```
 
-For more detailed information on how to use the crate, please have a look at the documentation of the [PSG](https://docs.rs/psg/latest/psg/struct.PSG.html) struct, which is the workhorse of the crate.
+For more detailed information on how to use the crate, please have a look at the documentation of the [`PSG`](https://docs.rs/psg/latest/psg/struct.PSG.html) struct, which is the workhorse of the crate.
 
 ## Acknowledgements
 
