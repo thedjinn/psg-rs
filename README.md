@@ -15,7 +15,7 @@ To start using the PSG emulator in your own projects, add the following line to 
 psg = "1.0.0"
 ```
 
-After that, simply initialize a new PSG struct, set some registers, and start rendering in a loop:
+After that, simply initialize a new [PSG](https://docs.rs/psg/latest/psg/struct.PSG.html) struct, set some registers, and start rendering in a loop:
 
 ```rust
 // Initialize a new PSG with a clock rate of an MSX machine and a sampling rate of 44100 Hz.
@@ -36,7 +36,7 @@ for _ in 0..44100 {
 }
 ```
 
-For more detailed information on how to use the crate, please have a look at the documentation of the PSG struct, which is the workhorse of the crate.
+For more detailed information on how to use the crate, please have a look at the documentation of the [PSG](https://docs.rs/psg/latest/psg/struct.PSG.html) struct, which is the workhorse of the crate.
 
 ## Acknowledgements
 
