@@ -2,6 +2,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/psg.svg)](https://crates.io/crates/psg)
 [![Docs.rs](https://docs.rs/psg/badge.svg)](https://docs.rs/psg)
+![GitHub](https://img.shields.io/github/license/thedjinn/psg-rs)
 
 The PSG crate provides a fast and highly precise emulation of the [General Instruments AY-3-8910](https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910) Programmable Sound Generator chip, as well as its most popular clone, the Yamaha YM2149.
 
