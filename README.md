@@ -1,5 +1,8 @@
 # PSG - AY-3-8910 and YM2149 emulation in Rust
 
+[![Crates.io](https://img.shields.io/crates/v/psg.svg)](https://crates.io/crates/psg)
+[![Docs.rs](https://docs.rs/psg/badge.svg)](https://docs.rs/psg)
+
 The PSG crate provides a fast and highly precise emulation of the [General Instruments AY-3-8910](https://en.wikipedia.org/wiki/General_Instrument_AY-3-8910) Programmable Sound Generator chip, as well as its most popular clone, the Yamaha YM2149.
 
 These PSG chips were used in some of the most popular home computers in the 1980s and early 1990s, such as the MSX family, the Sinclair ZX Spectrum, and the Atari ST.
